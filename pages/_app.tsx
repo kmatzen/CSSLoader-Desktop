@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Flags, Theme, ThemeError } from "../ThemeTypes";
-import { useState, useEffect, useMemo, use } from "react";
+import { useState, useEffect, useMemo } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import {
   checkForNewBackend,
