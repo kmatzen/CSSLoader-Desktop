@@ -73,8 +73,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install Rust Stable
-        uses: dtolnay/rust-toolchain@stable
+      - name: Install Rust 1.79.0
+        uses: dtolnay/rust-toolchain@1.79.0
 
       - name: Install Dependencies (Linux Only)
         if: matrix.platform == 'ubuntu-22.04'
