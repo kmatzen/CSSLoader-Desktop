@@ -176,9 +176,9 @@
       "active": true,
       "dialog": true,
       "endpoints": [
-        "https://raw.githubusercontent.com/DeckThemes/CSSLoader-Desktop/main/latest.json"
+        "https://raw.githubusercontent.com/kmatzen/CSSLoader-Desktop/main/latest.json"
       ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQ2RUUwREI3QjYzQjlEQzYKUldUR25UdTJ0dzN1MWdPaVZGbGhaWitmNUJKNkNQRUphd0tOdmR6MzNyMHQ3SHorNDcyRTNqS2MK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEU3NzhGNEU0MDJDQTVBQzkKUldUSldzb0M1UFI0NTErV0ZXOHgrMWxlbTh5TGJ0N1ZkUWdhY2s5OUlmWE1QQTFCektOaWU5K3QK"
     },
     "windows": [
       {
