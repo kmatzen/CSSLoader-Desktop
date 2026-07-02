@@ -8,7 +8,6 @@ import { TbColumns1, TbColumns2 } from "react-icons/tb";
 import { Flags } from "ThemeTypes";
 import Link from "next/link";
 import { storeRead, storeWrite } from "backend";
-import { test } from "backend/tauriMethods/test";
 
 export default function MainPage() {
   const vw = useVW();
@@ -32,7 +31,7 @@ export default function MainPage() {
     const filteredAll = themes.filter(
       (e) =>
         e.name.toLowerCase().includes(search.toLowerCase()) ||
-        e.author.toLowerCase().includes(search)
+        e.author.toLowerCase().includes(search.toLowerCase())
     );
     const sortedAll = filteredAll.sort((a, b) => {
       switch (sortValue) {
